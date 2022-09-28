@@ -6,7 +6,7 @@ services:
         build:
             context: .
             dockerfile: etc/docker/stackjs-debug.Dockerfile
-            target: prod
+            target: express-prod
         ports:
             - 3000:3000
         restart: always
