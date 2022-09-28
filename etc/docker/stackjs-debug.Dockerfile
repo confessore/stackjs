@@ -10,6 +10,7 @@ FROM base AS react-builder
 COPY ./src/stackjs-react ./src/stackjs-react
 WORKDIR /src/stackjs-react
 RUN npm i
+RUN npx tailwindcss init -p
 RUN npm run build --prod
 
 
