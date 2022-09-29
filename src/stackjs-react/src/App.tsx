@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="App-body">
         <Header />
         <img src={logo} className="App-logo" alt="logo" />
+        <Contact />
         <Footer />
       </div>
     </div>
