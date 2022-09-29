@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from '../logo.svg';
+import './Footer.css';
 
 function Footer() {
     return (
@@ -7,12 +9,12 @@ function Footer() {
             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                 <div>
                     <p className="text-lg font-medium">
-                        copyright © 2022 | all rights reserved
+                        Copyright © 2022 | All Rights Reserved
                     </p>
                 </div>
                 <div className="font-medium">
-                    <div className="text-emerald-500 dark:text-emerald-400">
-                        made with ❤️ by steven confessore
+                    <div className="flex text-emerald-500 dark:text-emerald-400">
+                        Made with <span><img src={logo} className="React-logo" alt="react logo" /></span> by Steven Confessore
                     </div>
                     <div className="text-slate-700 dark:text-slate-500">
                         balasolu | dreams realized
