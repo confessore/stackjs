@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Address from './components/Address';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="App-body">
         <Header />
         <Contact />
+        <Address />
         <Footer />
       </div>
     </div>
