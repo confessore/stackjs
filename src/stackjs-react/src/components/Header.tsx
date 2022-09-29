@@ -10,11 +10,11 @@ function Header() {
                     </p>
                 </div>
                 <div className="font-medium">
-                    <div className="text-rose-500 dark:text-rose-400">
+                    <div className="text-emerald-500 dark:text-emerald-400">
                         We exist to encourage and enhance opportunities for every person willing to work and promote inclusion and diversity through employment
                     </div>
                     <div className="text-slate-700 dark:text-slate-500">
-                        Please contact us for additional information and check back often for our latest updates
+                        Feel free to contact us for additional information and check back often for our latest updates
                     </div>
                 </div>
             </div>

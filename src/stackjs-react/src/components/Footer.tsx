@@ -13,7 +13,7 @@ function Footer() {
                     </p>
                 </div>
                 <div className="font-medium">
-                    <div className="flex text-emerald-500 dark:text-emerald-400">
+                    <div className="flex justify-center text-indigo-500 dark:text-indigo-400">
                         Made with <span><img src={logo} className="React-logo" alt="react logo" /></span> by Steven Confessore
                     </div>
                     <div className="text-slate-700 dark:text-slate-500">
