@@ -2,19 +2,23 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
-import Address from './components/Address';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import TopBar from './components/TopBar';
+import Services from './components/Services';
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-body">
+    <div className="text-center">
+      <div className="flex flex-col justify-center items-center text-black dark:text-white bg-slate-900 min-h-screen">
+        <TopBar />
         <Header />
-        <About />
+        <div className="flex flex-wrap justify-center items-center">
+          <About />
+          <Services />
+        </div>
         <Contact />
-        <Address />
         <Footer />
       </div>
     </div>

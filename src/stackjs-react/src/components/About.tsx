@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <div className="md:flex bg-slate-100 rounded-xl m-1 p-8 md:p-0 dark:bg-slate-800">
+        <div className="sm:w-[32rem] md:flex bg-slate-200 rounded-xl m-1 p-8 md:p-0 dark:bg-slate-800">
             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                 <div>
                     <p className="text-lg font-medium">
