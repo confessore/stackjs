@@ -15,7 +15,7 @@ function Footer() {
                     </p>
                 </div>
                 <div className="font-medium">
-                    <div className="flex justify-center md:justify-start text-indigo-500 dark:text-indigo-400">
+                    <div className="flex justify-center md:justify-start items-center text-indigo-500 dark:text-indigo-400">
                         Made with
                         <a href="https://reactjs.org"><img src={logo} className="React-logo" alt="react logo" /></a>
                         <a href="https://github.com/confessore">by Steven Confessore</a>

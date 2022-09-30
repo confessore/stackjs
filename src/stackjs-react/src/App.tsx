@@ -10,9 +10,9 @@ import Services from './components/Services';
 
 function App() {
   return (
-    <div className="text-center">
-      <div className="flex flex-col justify-center items-center text-black dark:text-white bg-slate-900 min-h-screen">
-        <TopBar />
+    <div className="text-center text-black dark:text-white bg-slate-900 min-h-screen">
+      <TopBar />
+      <div className="flex flex-col justify-center items-center">
         <Header />
         <div className="flex flex-wrap justify-center items-center">
           <About />
